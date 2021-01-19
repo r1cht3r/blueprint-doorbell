@@ -52,6 +52,7 @@ action:
     domain: mobile_app
     type: notify
     title: "{{ notification_title }}"
+    message: ""
     data: >
       {% set android_data = {"image": "%s"} | format(snapshot_access_file_path) %}
 
