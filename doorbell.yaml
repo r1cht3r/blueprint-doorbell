@@ -55,4 +55,3 @@ action:
     message: ""
     data: >
       {% set android_data = {"image": "%s"} | format(snapshot_access_file_path) %}
-
